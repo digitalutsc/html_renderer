@@ -1,0 +1,13 @@
+name = HTML Renderer for Dragomans Views fields
+description = Renders HTML within Islandora Views fields, specifically the mods_titleInfo_subTitle_ms field.
+core = 7.x
+
+; Information added by Drupal.org packaging script on 2014-10-18
+version = "7.x"
+core = "7.x"
+project = "html_renderer"
+datestamp = "1604003299"
+
+files[] = html_renderer.module
+files[] = include/views/html_renderer.views.inc
+files[] = include/views/html_renderer_handler_htmlrender.inc
